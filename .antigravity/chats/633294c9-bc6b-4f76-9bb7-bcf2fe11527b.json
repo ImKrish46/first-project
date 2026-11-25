@@ -40,6 +40,30 @@
       "created_at": "2026-11-25T06:05:59.029Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "2dd5e2a3-1e65-452f-9b62-4cb31b005f82",
+      "role": "agent",
+      "content": "The \"Queued\" status you're seeing in the mobile app was due to a **temporary server restart / reconnection** that occurred just a minute ago. \n\nWhen the backend restarts or reconnects:\n1. **Queued messages/tasks in the app:** Outgoing messages or actions from the mobile app can temporarily get held in the app's queue until the connection re-establishes.\n2. **Current status:** The connection is restored, and your messages (`what is happening with the queud tasks?` and `yes`) came through.\n3. **Workspace status:** The repository ([ImKrish46/first-project](file:///home/agent/workspace)) is fresh and ready for development.\n\nPlease let me know what project, website, or feature you'd like to build, and we can get started right away!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "5f06497d-2aec-44a6-ba7e-f8aa494ff13e",
+      "created_at": "2026-11-25T06:06:49.041Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "ad727be8-ec8e-4533-8b93-3af4183d47b0",
+      "role": "user",
+      "content": "can you access my git",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-25T06:06:49.045Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
